@@ -84,7 +84,6 @@ li{
 	height: 40%;
 	color: white;
 	outline: 1px solid;
-	position: relative;
 }
 .musicImage{
 	height: 100%;
@@ -420,13 +419,12 @@ li{
 	}
 	.spotifyImage{
 		margin-bottom: 0.25%;
-		position: absolute;
 		bottom: 0;
 	}
 	.appleImage{
 		margin-bottom: 0.25%;
-		position: absolute;
 		bottom: 0;
+		float: bottom;
 	}
 }
 
