@@ -84,6 +84,7 @@ li{
 	height: 40%;
 	color: white;
 	outline: 1px solid;
+	position: relative;
 }
 .musicImage{
 	height: 100%;
