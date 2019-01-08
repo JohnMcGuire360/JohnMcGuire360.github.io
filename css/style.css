@@ -417,6 +417,12 @@ li{
 	#warningBox{
 		font-size: 3vw;
 	}
+	.spotifyImage{
+		margin-bottom: 0.25%;
+	}
+	.appleImage{
+		margin-bottom: 0.25%;
+	}
 }
 
 
