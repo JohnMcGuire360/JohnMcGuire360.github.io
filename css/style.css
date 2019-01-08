@@ -419,12 +419,14 @@ li{
 	}
 	.spotifyImage{
 		margin-bottom: 0.25%;
-		bottom: 0;
+		bottom: 5;
+		right: 5;
 	}
 	.appleImage{
 		margin-bottom: 0.25%;
-		bottom: 0;
-		float: bottom;
+		bottom: 5;
+		left: 5;
+
 	}
 }
 
