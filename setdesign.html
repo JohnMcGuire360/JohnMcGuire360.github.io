@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>
+			Set Design
+		</title>
+		<link rel="icon" href="assets/icon.png"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script src="js/setDesignJS.js"></script>
+	</head>
+	<body>
+		<div class="pageTitle">
+			SET DESIGN
+		</div>
+		<div class="navigationMenu">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="music.html">MUSIC</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="tickets.html">TICKETS</a></li>
+				<li><a href="setdesign.html">SET-DESIGN</a></li>
+				<li><a href="demo.html">DEMO</a></li>
+			</ul>
+		</div>
+		<center>
+			<div id="setDesignHolder">
+				<div id="setDesignVisuals">
+					<img src="assets/crowd.png" id="crowdImage"/>
+					<div id="bandContainer">
+						<div id="thom" class="bandMember"></div>
+						<div id="jonny" class="bandMember"></div>
+						<div id="ed" class="bandMember"></div>
+						<div id="philip" class="bandMember"></div>
+						<div id="colin" class="bandMember"></div>
+					</div>
+					
+				</div>
+				<div id="setDesignTools">
+					Tools<br>
+					<font face="Arial" size="5vw">
+					Crowd:  <input type="checkbox" name="crowd" id="crowdBox"><br><br>
+					Thom Instrument: <br>
+									 <button id="thomMic" class="instrumentButton">Microphone</button>
+									 <button id="thomGuitar" class="instrumentButton">Guitar</button>
+									 <button id="thomDrums" class="instrumentButton">Drums</button><br>
+					Jonny Instrument:<br>
+									 <button id="jonnyMic" class="instrumentButton">Microphone</button>
+									 <button id="jonnyGuitar" class="instrumentButton">Guitar</button>
+									 <button id="jonnyDrums" class="instrumentButton">Drums</button><br>
+					Ed Instrument:   <br>
+									 <button id="edMic" class="instrumentButton">Microphone</button>
+									 <button id="edGuitar" class="instrumentButton">Guitar</button>
+									 <button id="edDrums" class="instrumentButton">Drums</button><br>
+				   Philip Instrument:<br>
+				                     <button id="philipMic" class="instrumentButton">Microphone</button>
+									 <button id="philipGuitar" class="instrumentButton">Guitar</button>
+									 <button id="philipDrums" class="instrumentButton">Drums</button><br>
+					Colin Instrument:<br>
+									 <button id="colinMic" class="instrumentButton">Microphone</button>
+									 <button id="colinGuitar" class="instrumentButton">Guitar</button>
+									 <button id="colinDrums" class="instrumentButton">Drums</button><br><br>
+					</font>
+				</div>
+				<br>
+				
+				<div id="setDesignToolsMobile">
+					Tools<br>
+					<font face="Arial" size="10vw">
+					Crowd:  <input type="checkbox" name="crowd" id="crowdBoxMobile" onchange="displayCrowdMobile()"><br><br>
+					Thom Instrument: 
+									 <button id="thomMic" class="instrumentButton" onclick="thomUpdateMic()">Microphone</button>
+									 <button id="thomGuitar" class="instrumentButton" onclick="thomUpdateGuitar()">Guitar</button>
+									 <button id="thomDrums" class="instrumentButton" onclick="thomUpdateDrums()">Drums</button><br>
+					Jonny Instrument:
+									 <button id="jonnyMic" class="instrumentButton" onclick="jonnyUpdateMic()">Microphone</button>
+									 <button id="jonnyGuitar" class="instrumentButton" onclick="jonnyUpdateGuitar()">Guitar</button>
+									 <button id="jonnyDrums" class="instrumentButton" onclick="jonnyUpdateDrums()">Drums</button><br>
+					Ed Instrument:  
+									 <button id="edMic" class="instrumentButton" onclick="edUpdateMic()">Microphone</button>
+									 <button id="edGuitar" class="instrumentButton" onclick="edUpdateGuitar()">Guitar</button>
+									 <button id="edDrums" class="instrumentButton" onclick="edUpdateDrums()">Drums</button><br>
+				   Philip Instrument:
+				                     <button id="philipMic" class="instrumentButton" onclick="philipUpdateMic()">Microphone</button>
+									 <button id="philipGuitar" class="instrumentButton" onclick="philipUpdateGuitar()">Guitar</button>
+									 <button id="philipDrums" class="instrumentButton" onclick="philipUpdateDrums()">Drums</button><br>
+					Colin Instrument:
+									 <button id="colinMic" class="instrumentButton" onclick="colinUpdateMic()">Microphone</button>
+									 <button id="colinGuitar" class="instrumentButton" onclick="colinUpdateGuitar()">Guitar</button>
+									 <button id="colinDrums" class="instrumentButton" onclick="colinUpdateDrums()">Drums</button><br><br>
+					</font>
+				</div>
+				
+			</div>
+		</center>
+	</body>
+</html>
