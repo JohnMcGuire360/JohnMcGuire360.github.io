@@ -10,7 +10,7 @@ a:hover{
 	color: orange;
 }
 body{
-	background-color: red;
+	background-color: black;
 	color: white;
 	font-family: Radiohead;
 	font-size: 5vw;
@@ -315,7 +315,7 @@ li{
 		font-size: 9vw;
 	}
 	.pageTitle{
-		margin-bottom: 0.5%;
+		margin-bottom: 3%;
 	}
 	.galleryImageContainer{
 		width: 80%;
