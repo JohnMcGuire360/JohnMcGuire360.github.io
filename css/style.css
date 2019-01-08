@@ -314,6 +314,9 @@ li{
 	.navigationMenu{
 		font-size: 9vw;
 	}
+	.pageTitle{
+		margin-bottom: 0.5%;
+	}
 	.galleryImageContainer{
 		width: 80%;
 	}
@@ -413,9 +416,6 @@ li{
 	}
 	#warningBox{
 		font-size: 3vw;
-	}
-	.navigationMenu{
-		margin-top: 5%;
 	}
 }
 
