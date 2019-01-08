@@ -414,6 +414,9 @@ li{
 	#warningBox{
 		font-size: 3vw;
 	}
+	.navigationMenu{
+		margin-top: 0.5%;
+	}
 }
 
 
