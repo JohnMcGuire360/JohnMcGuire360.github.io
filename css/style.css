@@ -332,10 +332,6 @@ li{
 	#reduceImage{
 		font-size: 10vw;
 	}
-	#musicHolder{
-		width: 95%;
-		font-size: 13vw;
-	}
 	#aboutInformation{
 		position: absolute;
 		bottom: 0;
@@ -417,14 +413,19 @@ li{
 	#warningBox{
 		font-size: 3vw;
 	}
+		#musicHolder{
+		width: 95%;
+		font-size: 9vw;
+	}
 	.spotifyImage{
 		margin-bottom: 0.25%;
-		bottom: 5;
+		bottom: 0;
 		right: 5;
+		padding-top: 22.5%;
 	}
 	.appleImage{
 		margin-bottom: 0.25%;
-		bottom: 5;
+		bottom: 0;
 		left: 5;
 
 	}
