@@ -396,7 +396,8 @@ li{
 		width: 100%;
 	}
 	#basketClose{
-	left: 1%;
+		left: 1%;
+		width: 120px;
 	}
 	#purchaseTickets{
 		right: 1%;
