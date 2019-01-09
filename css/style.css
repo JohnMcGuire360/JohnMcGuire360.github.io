@@ -358,6 +358,7 @@ li{
 		height: 70%;
 		width: 100%;
 		color: white;
+		font-size: 2vw;
 	}
 	button{
 		font-size: 4vw;
@@ -414,7 +415,7 @@ li{
 	#warningBox{
 		font-size: 3vw;
 	}
-		#musicHolder{
+	#musicHolder{
 		width: 95%;
 		font-size: 9vw;
 	}
