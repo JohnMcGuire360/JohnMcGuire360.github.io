@@ -396,10 +396,10 @@ li{
 		width: 100%;
 	}
 	#basketClose{
-	left: 20;
+	left: 1%;
 	}
 	#purchaseTickets{
-		right: 20;
+		right: 1%;
 	}
 	#clearBasket{
 		right: 40%
